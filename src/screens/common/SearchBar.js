@@ -9,17 +9,11 @@ class SearchBar extends Component<{}>
     textInput: ?object;
     textValue: ?string;
 
-    state: {
-    };
-
     constructor()
     {
         super();
 
         this.textValue = '';
-
-        this.state = {
-        };
     }
 
 

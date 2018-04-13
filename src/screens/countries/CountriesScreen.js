@@ -9,17 +9,9 @@ export default class CountriesScreen extends Component<{}>
     euList: ?object;
     timer: ?Function;
 
-    state: {
-        country: string,
-    };
-
     constructor()
     {
         super();
-
-        this.state = {
-            country: '',
-        };
     }
 
     searchByText(text: ?string)
